@@ -37,8 +37,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ```bash
+# mongoDB cluster
 # stopping cluster
 yc managed-mongodb cluster stop mymongo_project
 # starting cluster
 yc managed-mongodb cluster start mymongo_project
+# list cluster
+yc managed-mongodb cluster list
 ```
+
